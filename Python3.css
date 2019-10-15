@@ -2,8 +2,12 @@
 
 /* to apply a setting only when under RISE, 
    be aware that the <body> tag has class .rise-enabled */
-body {
-    background: black;
+body.rise-enabled {
+/* #    background: #9c3159; */
+}
+
+body.rise-enabled div.code_cell {
+    background: white;
 }
 
 /* ---------- markdown cells
